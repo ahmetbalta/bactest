@@ -12,7 +12,7 @@ class SmaCross(Strategy):
 
     def next(self):
         if crossover(self.ma1, self.ma2):
-            self.buy()git add .
+            self.buy()
         elif crossover(self.ma2, self.ma1):
             self.sell()
 
